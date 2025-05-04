@@ -18,7 +18,6 @@
 * **Programming Languages:** [Python], [C++]
 * **Libraries & Frameworks:** [PyTorch], [JAX], [Numpy]
 * **Tools & Platforms:** [OpenFOAM], [OpenLB], [CfMesh], [FreeCAD], [Linux]
-* **(Optional) Other:** [Ansys Fluent]
   
 ## ✨ Featured Projects
 
