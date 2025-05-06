@@ -1,0 +1,194 @@
+%!TEX TS-program = pdflatex % pdflatex으로 컴파일하도록 지정
+%!TEX encoding = UTF-8 Unicode % UTF-8 인코딩 사용
+
+\documentclass{article} % article 클래스 사용
+
+% 필요한 패키지 로드
+\usepackage[utf8]{inputenc} % UTF-8 인코딩 처리 (pdflatex용)
+\usepackage[T1]{fontenc} % 글꼴 인코딩 설정
+\usepackage[english]{babel} % 언어 설정 (필요에 따라 ko 등으로 변경 가능하나 CV는 보통 English)
+\usepackage{geometry} % 여백 설정 패키지
+\usepackage{hyperref} % 하이퍼링크 (이메일, URL) 설정 패키지
+\usepackage{enumitem} % 리스트(itemize, enumerate) 간격 조절 패키지
+\usepackage{ragged2e} % 텍스트 정렬 패키지 (\RaggedRight 사용)
+\usepackage{xcolor} % 색상 사용 패키지 (줄 색상 등을 조절하고 싶을 때)
+\usepackage{tikz} % 줄 스타일 등 고급 조절 시 사용 가능 (여기서는 간단히 hrule 사용)
+
+% 여백 설정: 좌, 우, 상, 하 여백을 동일하게 2.5cm로 설정 (원하는 값으로 조절)
+\geometry{a4paper, margin=2.5cm}
+
+% 하이퍼링크 색상 설정 (선택 사항)
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    linkcolor=blue,
+    citecolor=blue
+}
+
+% 전체 텍스트를 왼쪽 정렬 (CV에서 흔히 사용)
+\RaggedRight
+
+%-------------------------------------------------------------------------------
+% 기본적인 CV 항목(cventry와 유사)을 위한 사용자 정의 명령어 정의
+% \mycventry{직책/역할}{소속}{위치}{기간}{세부 내용 (itemize 환경에 들어갈 \item{} 들)}
+%-------------------------------------------------------------------------------
+\newcommand{\mycventry}[5]{
+  \vspace{1.5em} % <--- 각 항목(cventry) 사이의 간격. 이 값을 조절.
+
+  \textbf{#1}, #2 \\ % 직책/역할 (굵게), 소속
+  #3 $|$ #4 \\[0.4em] % <--- ##### 이 부분이 Location/Dates와 Bullet Point 사이 간격 #####
+                     % <--- ##### [0.4em] 값을 조절하여 원하는 간격으로 설정하세요. #####
+                     % 값을 늘리면 간격이 넓어지고 줄이면 좁아집니다.
+
+  % 세부 내용 리스트 (itemize 환경)
+  % nosep: 항목 사이의 기본 간격을 없앰
+  % after: itemize 환경 자체의 아래 여백을 조절
+  \begin{itemize}[nosep, after=\vspace{-0.4em}] % before=\vspace{-0.4em}는 삭제하여 Location/Dates와의 기본 간격 확보
+    #5 % \item{} 으로 구성된 세부 내용들
+  \end{itemize}
+}
+
+%-------------------------------------------------------------------------------
+% 섹션 나누는 줄 정의
+%-------------------------------------------------------------------------------
+\newcommand{\sectionsplitrule}{
+%  \vspace{1.5em} % <--- ##### 줄 위에 넣을 수직 간격 #####
+  \hrule % <--- 수평선 그리기 명령. 기본 두께와 색상 사용.
+         % 만약 색상이나 두께 조절 필요 시 \textcolor{색상이름}{\rule{\linewidth}{선두께}} 등으로 대체 가능
+  \vspace{1em} % <--- ##### 줄 아래에 넣을 수직 간격 #####
+}
+
+
+%-------------------------------------------------------------------------------
+% 문서 시작
+%-------------------------------------------------------------------------------
+\begin{document}
+
+%===============================================================================
+% 개인 정보 (상단 헤더 역할)
+% 필요에 따라 추가/수정/삭제하세요.
+%===============================================================================
+\begin{center}
+    {\Huge \textbf{Jaewon Jang}} % 이름 (크고 굵게)
+
+    \vspace{0.5em} % 이름과 정보 사이 간격
+
+    Master student, DDFE Lab \\ % 직책/소속
+    100, Inha-ro, Michuhol-gu, Incheon, Republic of Korea \\ % 주소
+    (+82) 10-3193-5624 $|$ \href{mailto:poroparo5624@gmail.com}{poroparo5624@gmail.com} \\ % 전화 | 이메일 (하이퍼링크)
+    \href{https://github.com/FluidicEnergy}{github.com/FluidicEnergy} $|$ \href{https://www.linkedin.com/in/jaewon-jang-895785252}{linkedin.com/in/jaewon-jang-895785252} % GitHub | LinkedIn (하이퍼링크)
+    % 다른 정보 추가 가능: 홈페이지, 연구실 페이지 등
+\end{center}
+
+
+%------------------------------------------------------
+
+%------------------------------------------------------
+
+\section*{Education}
+\sectionsplitrule
+%\vspace{0.5em} % 섹션 제목과 내용 사이 간격
+
+% my cventry 명령어 사용
+\mycventry
+  {Undergraduated student} % 직책/역할
+  {INHA University} % 소속
+  {Incheon, S.Korea} % 위치
+  {Mar. 2018 - Feb. 2025} % 기간
+  { % 세부 내용 (itemize의 \item{} 들)
+    \item Mechanical Engineering 
+    \item GPA: 3.95 / 4.5
+    \item Major GPA: 4.12 / 4.5
+    \item Total Credicts: 150 
+  }
+
+\mycventry
+  {Master student}
+  {INHA University} % 소속
+  {Incheon, S.Korea} % 위치
+  {Mar. 2025 - Present} % 기간
+  {
+    \item Mechanical Engineering 
+  }
+
+
+%-------------------------------------------------------------------------------
+% Experience 섹션 예시
+% 앞에서 알려주신 내용을 바탕으로 작성
+%-------------------------------------------------------------------------------
+\section*{Experience}
+\sectionsplitrule
+
+% 학부 연구 경험
+\mycventry
+  {Undergraduated student} % 직책/역할 (awesome-cv와 동일하게 사용)
+  {INHA University} % 소속
+  {Incheon, S.Korea} % 위치
+  {Mar. 2018 - Feb. 2025} % 기간
+  { % 세부 내용 (\item{} 으로 작성)
+    \item Object classification (human, vehicle, and labeled/unlabeled wastes) with YOLO
+	\item PEMFC 0-dimensional modeling with MATLAB - calculates Ohmic, Concentration losses
+	\item Convolutional Neural Network based Dynamometer Driver - Simulating and performance checking with WLTC cycle
+	\item Pollution separate in pipe fluids - Construct IOT sensor system with Node-RED
+    \item Physics-informed Neural Networks for prediction of steady-states Airfoil flowfields
+  }
+
+% 석사 연구 경험
+\mycventry
+  {Master student} % 직책/역할
+  {DDFE Lab. (INHA University)} % 소속
+  {Incheon, S.Korea} % 위치
+  {Mar. 2025 - Present} % 기간
+  { % 세부 내용
+    \item Generative AI for prediction of wafer-scale process non uniformity @SAMSUNG Inc.
+  }
+
+
+\mycventry
+  {Squad leader} % Job title
+  {Ground Operations Command at Republic of Korea Army} % Organization
+  {Yongin, S.Korea} % Location
+  {Feb. 2020 - Aug. 2021} % Date(s)
+  {
+    \item 20mm Vulcan Anti-Aircraft Gun Operator \& Administrative Clerk
+  }
+
+%-------------------------------------------------------------------------------
+% Skills section 
+%-------------------------------------------------------------------------------
+\section*{Skills}
+\sectionsplitrule
+
+\begin{itemize}[leftmargin=1.5em, parsep=0.5em] % parsep으로 항목 사이 간격 조절 가능
+    \item \textbf{Programming Languages:} Python, MATLAB, C++ (Basic)
+    \item \textbf{Frameworks/Libraries:} PyTorch, JAX, scikit-learn, NumPy, Node-RED
+    \item \textbf{Tools:} LaTeX, OpenLB, OpenFOAM, PointWise, 
+\end{itemize}
+
+
+\section*{Awards and Honors}
+\sectionsplitrule
+
+\begin{itemize}[leftmargin=1.5em, parsep=0.5em] % parsep으로 항목 사이 간격 조절 가능
+    \item 2022-1 Vertically Integrated Projects, Grand prize, Inha University (Jun. 2022)
+    \item 2022-2 Vertically Integrated Projects, Grand prize, Inha University (Dec. 2022)
+    \item 2022 Inno Think Mackathon, Grand prize, POSCO EnC (Jan. 2023)
+    \item 2024 ICT Convergence Project Competition, Participation Award, NTREX (Jul. 2024)
+\end{itemize}
+
+%-------------------------------------------------------------------------------
+% 추가 섹션 예시 (필요에 따라 복사하여 사용)
+% \section*{Projects}
+% ... 내용 ...
+% \sectionsplitrule
+%
+% \section*{Awards \& Honors}
+% ... 내용 ...
+% \sectionsplitrule
+%-------------------------------------------------------------------------------
+
+
+%===============================================================================
+% 문서 끝
+%===============================================================================
+\end{document}
