@@ -28,16 +28,15 @@
 * **[Project 3 Name](link-to-repo-3):** [Description of a significant personal project or a course project with notable outcomes.]
     * *Key Technologies:* `[Tech 5]`, `[Tech 6]`
 
-## 📄  CV
+## 📄  CV, other links
 
 * You can find more details about my academic and professional background in my Resume/CV:
-    * **[CV Download Link]** ## 🔗 Links
+* **[CV Download Link]** ## 🔗 Links
 
 * [![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/jaewon-jang-895785252/])
-#* [![scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)]([https://www.linkedin.com/in/jaewon-jang-895785252]) 
-* [![website](https://img.shields.io/badge/Personal_Website-FF0000?style=for-the-badge&logo=About.me&logoColor=white)]([https://sites.google.com/view/streamyjang]) 
-#* [![blog](https://img.shields.io/badge/Blog-FFFFFF?style=for-the-badge&logo=Blogger&logoColor=black)]([your-blog-url])
-📊 GitHub Stats (Optional)
+%* [![scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)]([https://www.linkedin.com/in/jaewon-jang-895785252]) 
+* [![website](https://img.shields.io/badge/Personal_Website-FF0000?style=for-the-badge&logo=About.me&logoColor=white)](https://sites.google.com/view/streamyjang) 
+%* [![blog](https://img.shields.io/badge/Blog-FFFFFF?style=for-the-badge&logo=Blogger&logoColor=black)]([your-blog-url])
 
 ---
 
