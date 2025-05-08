@@ -1,6 +1,5 @@
 # Hello there, I'm Jaewon.
 
-#[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F[your-github-username]&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false)](https://hits.seeyoufarm.com)
 ### 👨‍💻 About Me
 
 * I'm currently a Master Student in Mechanical Engineering at INHA University
@@ -31,9 +30,9 @@
 ## 📄  CV, other links
 
 * You can find more details about my academic and professional background in my Resume/CV:
-* **[CV Download Link]** ## 🔗 Links
+* **[CV Download Link](https://github.com/FluidicEnergy/FluidicEnergy/blob/main/cv/cv_jjw.pdf)** ## 🔗 Links
 
-* [![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/jaewon-jang-895785252/])
+* [![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaewon-jang-895785252/)
 * [![website](https://img.shields.io/badge/Personal_Website-FF0000?style=for-the-badge&logo=About.me&logoColor=white)](https://sites.google.com/view/streamyjang) 
 
 ---
