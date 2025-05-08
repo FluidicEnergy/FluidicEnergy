@@ -34,9 +34,7 @@
 * **[CV Download Link]** ## 🔗 Links
 
 * [![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/jaewon-jang-895785252/])
-%* [![scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)]([https://www.linkedin.com/in/jaewon-jang-895785252]) 
 * [![website](https://img.shields.io/badge/Personal_Website-FF0000?style=for-the-badge&logo=About.me&logoColor=white)](https://sites.google.com/view/streamyjang) 
-%* [![blog](https://img.shields.io/badge/Blog-FFFFFF?style=for-the-badge&logo=Blogger&logoColor=black)]([your-blog-url])
 
 ---
 
