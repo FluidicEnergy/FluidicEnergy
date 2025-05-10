@@ -21,10 +21,10 @@
 ## ✨ Featured Projects
 
 * **[PINN based FlowFileds analysis](https://github.com/FluidicEnergy/PINN):** [Predict 2D steady/unsteady Flow fields in low Re number with cicular cylinder & Airfoil. Built by Pytorch and DeepXDE]
-    * *Key Technologies:* `[Physics-informed Neural Networks]`, `[DeepONet]`, [Kolmogorov-Arnold Network]`
+    * *Key Technologies:* `[Physics-informed Neural Networks]`, `[DeepONet]`, '[Kolmogorov-Arnold Network]`
 
 * **[Wafer-scale Orthogonal mode decompostion](https://github.com/FluidicEnergy/Wafer-scale-mode-decomposition):** [Extract Orthogonal modes in wafer-scale binary datasets]
-    * *Key Technologies:* `[Singular valude decomposition]`
+    * *Key Technologies:* `[Singular value decomposition(SVD)]`
 
 ## 📄  CV, other links
 
