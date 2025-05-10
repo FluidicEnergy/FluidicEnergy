@@ -15,8 +15,8 @@
 ## 🚀 Skills
 
 * **Programming Languages:** [Python], [C++]
-* **Libraries & Frameworks:** [PyTorch], [JAX], [Numpy]
-* **Tools & Platforms:** [OpenFOAM], [OpenLB], [PointWise], [FreeCAD], [Linux]
+* **Libraries & Frameworks:** [PyTorch], [Numpy]
+* **Tools & Platforms:** [OpenFOAM], [PointWise], [CAD], [Linux], [NodeRED]
   
 ## ✨ Featured Projects
 
