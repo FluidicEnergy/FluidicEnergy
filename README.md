@@ -14,10 +14,11 @@
 
 ## 🚀 Skills
 
-* **Programming Languages:** [Python], [C++]
-* **Libraries & Frameworks:** [PyTorch], [Numpy]
-* **Tools & Platforms:** [OpenFOAM], [PointWise], [CAD], [Linux], [NodeRED]
-  
+* **Programming Languages:** [Python], [MATLAB],  [C++(basic)]
+* **Libraries & Frameworks:** [PyTorch], [Numpy], [scikit-learn]
+* **Tools & Platforms:** [OpenFOAM], [PointWise], [CAD], [Linux], [LaTeX], [NodeRED]
+
+
 ## ✨ Featured Projects
 
 * **[PINN based FlowFileds analysis](https://github.com/FluidicEnergy/PINN):** [Predict 2D steady/unsteady Flow fields in low Re number with cicular cylinder & Airfoil. Built by Pytorch and DeepXDE]
@@ -29,7 +30,7 @@
 ## 📄  CV, other links
 
 * You can find more details about my academic and professional background in my Resume/CV:
-* **[CV Download Link](https://github.com/FluidicEnergy/FluidicEnergy/blob/main/cv/cv_jjw.pdf)** ## 🔗 Links
+* **[Check my CV](https://github.com/FluidicEnergy/FluidicEnergy/blob/main/cv/cv_jjw.pdf)** ## 🔗 Links
 
 * [![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaewon-jang-895785252/)
 * [![website](https://img.shields.io/badge/Personal_Website-FF0000?style=for-the-badge&logo=About.me&logoColor=white)](https://sites.google.com/view/streamyjang) 
