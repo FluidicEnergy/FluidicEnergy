@@ -20,12 +20,11 @@
   
 ## ✨ Featured Projects
 
-* **[PINN based NACA analysis](link-to-repo-1):** [Brief description of the project. If it's research-related, highlight the research goals, methods used, and your contributions.]
-    * *Key Technologies:* `[Tech 1]`, `[Tech 2]`
-* **[Project 2 Name](link-to-repo-2):** [Description of another key project. Mention if it's related to your thesis/dissertation.]
-    * *Key Technologies:* `[Tech 3]`, `[Tech 4]`
-* **[Project 3 Name](link-to-repo-3):** [Description of a significant personal project or a course project with notable outcomes.]
-    * *Key Technologies:* `[Tech 5]`, `[Tech 6]`
+* **[PINN based FlowFileds analysis](https://github.com/FluidicEnergy/PINN):** [Predict 2D steady/unsteady Flow fields in low Re number with cicular cylinder & Airfoil. Built by Pytorch and DeepXDE]
+    * *Key Technologies:* `[Physics-informed Neural Networks]`, `[DeepONet]`, [Kolmogorov-Arnold Network]`
+
+* **[Wafer-scale Orthogonal mode decompostion](https://github.com/FluidicEnergy/Wafer-scale-mode-decomposition):** [Extract Orthogonal modes in wafer-scale binary datasets]
+    * *Key Technologies:* `[Singular valude decomposition]`
 
 ## 📄  CV, other links
 
