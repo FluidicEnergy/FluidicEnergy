@@ -14,7 +14,7 @@
 
 ## 🚀 Skills
 
-* **Programming Languages:** [Python], [MATLAB],  [C++(basic)]
+* **Programming Languages:** [Python], [C++(basic)]
 * **Libraries & Frameworks:** [PyTorch], [Numpy], [scikit-learn]
 * **Tools & Platforms:** [OpenFOAM], [PointWise], [CAD], [Linux], [LaTeX], [NodeRED]
 
@@ -38,3 +38,4 @@
 ---
 
 Thanks for visiting my profile! 😊
+
