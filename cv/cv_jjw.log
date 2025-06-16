@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.26)  6 JUN 2025 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.26)  17 JUN 2025 03:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -650,9 +650,9 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 78.
+(Font)              <7> on input line 79.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 78.
+(Font)              <5> on input line 79.
 
 
 [1
@@ -672,7 +672,7 @@ Package rerunfilecheck Info: File `cv_jjw.out' has not changed.
 Here is how much of TeX's memory you used:
  21009 strings out of 473190
  393476 string characters out of 5715800
- 788984 words of memory out of 5000000
+ 787983 words of memory out of 5000000
  43942 multiletter control sequences out of 15000+600000
  563800 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -682,10 +682,10 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></u
 sr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr
 /local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on cv_jjw.pdf (2 pages, 81636 bytes).
+Output written on cv_jjw.pdf (2 pages, 81638 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

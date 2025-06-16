@@ -30,10 +30,10 @@
 ## 📄  CV, other links
 
 * You can find more details about my academic and professional background in my Resume/CV:
-* **[Check my CV](https://github.com/FluidicEnergy/FluidicEnergy/blob/main/cv/cv_jjw.pdf)** ## 🔗 Links
+* **[Check my CV](https://github.com/VortexyAether/VortexyAether/raw/main/cv/cv_jjw.pdf)** ## 🔗 Links
 
 * [![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaewon-jang-895785252/)
-* [![website](https://img.shields.io/badge/Personal_Website-FF0000?style=for-the-badge&logo=About.me&logoColor=white)](https://sites.google.com/view/streamyjang) 
+* [![website](https://img.shields.io/badge/Personal_Website-FF0000?style=for-the-badge&logo=About.me&logoColor=white)](https://vortexyaether.github.io/index.html) 
 
 ---
 
